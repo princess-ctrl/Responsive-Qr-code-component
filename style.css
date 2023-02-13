@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+	background-color: hsl(218, 44%, 22%);
+	text-align: center;
+}
+
+h1{
+	font-size: 20px;
+	font-weight: bolder;
+	color: hsl(218, 44%, 22%);
+	padding: 10px 10px 0 10px;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: hsl(220, 15%, 55%);
+}
+
+a:hover{
+	 color: hsl(0, 0%, 100%);
+}
+
+span{
+	color: hsl(212, 45%, 89%);
+	line-height: 2;
+}
+
+.container{
+	box-sizing: content-box;
+	width: 20%;
+	height: fit-content(20em);
+	border: none;
+	margin: 5% auto;
+	padding: 13px;
+	border-top-right-radius: 18px;
+	border-top-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+	border-bottom-left-radius: 18px;
+	background-color: hsl(0, 0%, 100%);
+
+}
+
+.qr-code{
+	border-top-right-radius: 18px;
+	border-top-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+	border-bottom-left-radius: 18px;
+}
+
+.container p{
+	font-size: 15px;
+	color: hsl(220, 15%, 55%);
+	padding: 0 10px 0 10px;
+}
+
+footer { 
+ font-size: 11px;
+ color: hsl(0, 0%, 100%);
+}
+
+/***************************************** MEDIA QUERY *********************************/
+
+@media screen and (max-width: 1024px) {
+	.container{
+	width: 30%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	}
+
+	.qr-code{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+    }
+
+   h1{
+	font-size: 16px;
+	padding: 0 10px 0 10px;
+   }
+
+   .container p{
+	font-size: 13px;
+	padding: 0 5px 0 5px;
+   }
+
+}
+
+@media screen and (max-width: 730px) {
+	h1{
+	font-size: 12px;
+   }
+
+   .container p{
+	font-size: 10px;
+   }
+}
+
+@media screen and (max-width: 460px) {
+	.container {
+		margin: 50% auto;
+	}
+	
+	h1{
+	font-size: 9px;
+   }
+
+   .container p{
+	font-size: 7px;
+   }
+}
+
+@media screen and (max-width: 295px) {
+	h1{
+	font-size: 5px;
+   }
+
+   .container p{
+	font-size: 5px;
+   }
+}
+
